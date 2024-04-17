@@ -1,0 +1,112 @@
+2024-04-17T11:38:02: PM2 log: ===============================================================================
+2024-04-17T11:38:03: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2024-04-17T11:38:03: PM2 log: Time                 : Wed Apr 17 2024 11:38:03 GMT+0000 (Coordinated Universal Time)
+2024-04-17T11:38:03: PM2 log: PM2 version          : 5.3.1
+2024-04-17T11:38:03: PM2 log: Node.js version      : 16.20.2
+2024-04-17T11:38:03: PM2 log: Current arch         : x64
+2024-04-17T11:38:03: PM2 log: PM2 home             : /root/.pm2
+2024-04-17T11:38:03: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+2024-04-17T11:38:03: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+2024-04-17T11:38:03: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+2024-04-17T11:38:03: PM2 log: Application log path : /root/.pm2/logs
+2024-04-17T11:38:03: PM2 log: Worker Interval      : 30000
+2024-04-17T11:38:03: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+2024-04-17T11:38:03: PM2 log: Concurrent actions   : 2
+2024-04-17T11:38:03: PM2 log: SIGTERM timeout      : 1600
+2024-04-17T11:38:03: PM2 log: ===============================================================================
+2024-04-17T11:57:01: PM2 log: App [Nodejs_deploy:0] starting in -fork mode-
+2024-04-17T11:57:01: PM2 log: App [Nodejs_deploy:0] online
+2024-04-17T11:57:01: PM2 error: Error: spawn node ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:485:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-04-17T11:57:01: PM2 error: Error caught while calling pidusage
+2024-04-17T11:57:01: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:57:04: PM2 error: Error caught while calling pidusage
+2024-04-17T11:57:04: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:57:06: PM2 error: Error caught while calling pidusage
+2024-04-17T11:57:06: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:57:34: PM2 error: Error caught while calling pidusage
+2024-04-17T11:57:34: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:57:40: PM2 error: Error caught while calling pidusage
+2024-04-17T11:57:40: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:57:40: PM2 error: Error caught while calling pidusage
+2024-04-17T11:57:40: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:57:40: PM2 log: Stopping app:Nodejs_deploy id:0
+2024-04-17T11:57:40: PM2 error: app=Nodejs_deploy id=0 does not have a pid
+2024-04-17T11:57:40: PM2 log: App [Nodejs_deploy:0] starting in -fork mode-
+2024-04-17T11:57:40: PM2 log: App [Nodejs_deploy:0] online
+2024-04-17T11:57:40: PM2 error: Error: spawn node ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:485:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-04-17T11:57:40: PM2 error: Error caught while calling pidusage
+2024-04-17T11:57:40: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:58:04: PM2 error: Error caught while calling pidusage
+2024-04-17T11:58:04: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:58:34: PM2 error: Error caught while calling pidusage
+2024-04-17T11:58:34: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:58:37: PM2 error: Error caught while calling pidusage
+2024-04-17T11:58:37: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:58:37: PM2 error: Error caught while calling pidusage
+2024-04-17T11:58:37: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:58:37: PM2 log: Stopping app:Nodejs_deploy id:0
+2024-04-17T11:58:37: PM2 error: app=Nodejs_deploy id=0 does not have a pid
+2024-04-17T11:58:41: PM2 log: App [Nodejs_deploy:0] starting in -fork mode-
+2024-04-17T11:58:41: PM2 log: App [Nodejs_deploy:0] online
+2024-04-17T11:58:41: PM2 error: Error: spawn node ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:485:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-04-17T11:58:41: PM2 error: Error caught while calling pidusage
+2024-04-17T11:58:41: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:58:44: PM2 error: Error caught while calling pidusage
+2024-04-17T11:58:44: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:59:04: PM2 error: Error caught while calling pidusage
+2024-04-17T11:59:04: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:59:34: PM2 error: Error caught while calling pidusage
+2024-04-17T11:59:34: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:59:55: PM2 error: Error caught while calling pidusage
+2024-04-17T11:59:55: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:59:55: PM2 error: Error caught while calling pidusage
+2024-04-17T11:59:55: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T11:59:55: PM2 log: Stopping app:Nodejs_deploy id:0
+2024-04-17T11:59:55: PM2 error: app=Nodejs_deploy id=0 does not have a pid
+2024-04-17T12:00:15: PM2 log: App [Nodejs_deploy:0] starting in -fork mode-
+2024-04-17T12:00:15: PM2 log: App [Nodejs_deploy:0] online
+2024-04-17T12:00:15: PM2 error: Error: spawn node ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:485:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-04-17T12:00:15: PM2 error: Error caught while calling pidusage
+2024-04-17T12:00:15: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T12:00:34: PM2 error: Error caught while calling pidusage
+2024-04-17T12:00:34: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T12:00:49: PM2 error: Error caught while calling pidusage
+2024-04-17T12:00:49: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T12:00:49: PM2 error: Error caught while calling pidusage
+2024-04-17T12:00:49: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T12:00:49: PM2 log: Stopping app:Nodejs_deploy id:0
+2024-04-17T12:00:49: PM2 error: app=Nodejs_deploy id=0 does not have a pid
+2024-04-17T12:01:05: PM2 log: App [sharks:0] starting in -fork mode-
+2024-04-17T12:01:05: PM2 log: App [sharks:0] online
+2024-04-17T12:01:05: PM2 error: Error: spawn node ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:485:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-04-17T12:01:05: PM2 error: Error caught while calling pidusage
+2024-04-17T12:01:05: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T12:01:10: PM2 error: Error caught while calling pidusage
+2024-04-17T12:01:10: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T12:01:34: PM2 error: Error caught while calling pidusage
+2024-04-17T12:01:34: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T12:02:04: PM2 error: Error caught while calling pidusage
+2024-04-17T12:02:04: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T12:02:19: PM2 error: Error caught while calling pidusage
+2024-04-17T12:02:19: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T12:02:19: PM2 error: Error caught while calling pidusage
+2024-04-17T12:02:19: PM2 error: TypeError: One of the pids provided is invalid
+2024-04-17T12:02:19: PM2 log: Stopping app:sharks id:0
+2024-04-17T12:02:19: PM2 error: app=sharks id=0 does not have a pid
+2024-04-17T12:02:45: PM2 log: App [SharksApp:0] starting in -fork mode-
+2024-04-17T12:02:45: PM2 log: App [SharksApp:0] online
